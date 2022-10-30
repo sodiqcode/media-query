@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1, .section2, .section3{
+    padding: 20px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+body {
+    background-color: green;
+}
+
+@media (min-width: 764px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        /* flex-direction: row-reverse;
+        flex-direction: column-reverse; */
+    }
+}
+
+i {
+    font-size: 2rem;
+}
+
